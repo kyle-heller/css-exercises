@@ -15,11 +15,33 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.text {
+padding-top: 10px;
+padding-bottom: 15px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.close {
+  order: 2;
+}
+
+.right{
+  width: 375px;
+
 }
 
 .icon {
